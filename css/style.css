@@ -1,0 +1,26 @@
+body{
+    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-position: left calc(100% - 154%) top calc(100% - 300px), right calc(100% - 155%)  bottom calc(100% - 400px);
+    background-repeat: no-repeat;
+}
+
+main{
+    width: 400px;
+    height: 450px;
+    border: black solid;
+    background-color: white;
+    background-image: url(/images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    margin: auto;
+    margin-top: 12%;
+    margin-bottom: 12%;
+}
+
+img{
+    margin-left: 35%;
+}
+
+.perfil p{
+    text-align: center;
+}
