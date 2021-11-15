@@ -1,26 +1,81 @@
 body{
     background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
-    background-position: left calc(100% - 154%) top calc(100% - 300px), right calc(100% - 155%)  bottom calc(100% - 400px);
+    background-position: right 700px bottom 250px, left 700px top 420px;
     background-repeat: no-repeat;
+    background-color: hsl(185, 75%, 39%);
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 main{
-    width: 400px;
-    height: 450px;
-    border: black solid;
+    width: 350px;
+    height: 420px;
     background-color: white;
     background-image: url(/images/bg-pattern-card.svg);
     background-repeat: no-repeat;
     background-size: 400px;
     margin: auto;
-    margin-top: 12%;
+    margin-top: 185px;
     margin-bottom: 12%;
+    border-radius: 5%;
+    box-shadow: 2px 2px 100px 5px hsl(0, 0%, 59%);
 }
 
 img{
+    margin-top: 31%;
     margin-left: 35%;
+    border-radius: 50%;
+    border: white solid 5px;
+}
+
+.perfil{
+    margin-top: 31%;
 }
 
 .perfil p{
     text-align: center;
+    margin: 0;
+}
+
+.perfil .nome{
+    font-size: 22px; 
+    margin-top: 15px; 
+    margin-bottom: 7px; 
+    font-weight: bold; 
+    color: hsl(229, 23%, 23%);
+}
+
+.perfil .cidade{
+    color: hsl(227, 10%, 46%); 
+    margin-bottom: 30px;
+}
+
+strong{
+    color: hsl(227, 10%, 46%); 
+    font-weight: normal;
+}
+
+.informacoes{
+    display: flex;
+    text-align: center;
+    margin-left: 12%;
+    font-size: 14px;
+}
+
+.informacoes p{
+    color: hsl(227, 10%, 46%);
+    margin: 0;
+}
+
+div{
+    margin-right: 15%;
+}
+
+h1{
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: hsl(229, 23%, 23%);
 }
