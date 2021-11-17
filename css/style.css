@@ -79,3 +79,55 @@ h1{
     margin-bottom: 5px;
     color: hsl(229, 23%, 23%);
 }
+
+@media screen and (max-width: 1329px) {
+    body{
+        background-position: right 650px bottom 250px, left 650px top 420px;
+    }
+}
+
+@media screen and (max-width: 1165px) {
+    body{
+        background-position: right 600px bottom 250px, left 600px top 420px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body{
+        background-position: right 520px bottom 250px, left 520px top 420px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        background-position: right 390px bottom 250px, left 390px top 420px;
+    }
+}
+
+@media screen and (max-width: 664px) {
+    body{
+        background-position: right 330px bottom 250px, left 330px top 420px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    body{
+        background-position: right 270px bottom 250px, left 270px top 420px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    body{
+        background-position: right 200px bottom 250px, left 200px top 420px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    body{
+        background-position: right 170px bottom 250px, left 170px top 420px;
+    }
+
+    main{
+        width: 320px;
+    }
+}
