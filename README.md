@@ -7,3 +7,5 @@
  https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ
 
  Link do site: https://cristiano-monteiro.github.io/Projeto-perfil-de-usuario/
+
+(PROJETO FINALIZADO)
