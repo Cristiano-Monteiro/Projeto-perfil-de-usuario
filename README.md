@@ -1,3 +1,5 @@
+![foto-projeto-perfil-usuario](https://user-images.githubusercontent.com/91402144/148617102-4e8ea3ad-7b90-465f-b5c1-ff28ee6069cb.png)
+
 # Projeto-perfil-de-usuario
  (PT-BR) Página do perfil de um usuário usando HTML e CSS.
 
