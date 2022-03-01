@@ -4,8 +4,8 @@ body{
     background-repeat: no-repeat;
     background-color: hsl(185, 75%, 39%);
     background-size: cover;
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     height: 100vh;
     font-size: 18px;
     font-family: 'Kumbh Sans', sans-serif;
@@ -26,59 +26,56 @@ main{
     box-shadow: 2px 2px 100px 5px hsl(0, 0%, 59%);
 }
 
-img{
-    margin-left: 35%;
-    border-radius: 50%;
-    border: white solid 5px;
+.perfil{
+    margin-top: 26%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.perfil{
-    margin-top: 31%;
+img{
+    border-radius: 50%;
+    border: white solid 5px;
+    width: 25%;
 }
 
 .perfil p{
-    text-align: center;
-    margin: 0;
+    margin: 0%;
 }
 
-.perfil .nome{
+.perfil strong{
     font-size: 22px; 
     margin-top: 15px; 
     margin-bottom: 7px; 
-    font-weight: bold; 
     color: hsl(229, 23%, 23%);
 }
 
-.perfil .cidade{
-    color: hsl(227, 10%, 46%); 
-    margin-bottom: 30px;
-}
-
-strong{
+.perfil .cidade, span{
     color: hsl(227, 10%, 46%); 
     font-weight: normal;
 }
 
+
 .informacoes{
     display: flex;
     text-align: center;
-    margin-left: 12%;
+    justify-content: space-around;
     font-size: 14px;
+}
+
+.informacoes div{
+    margin: 5% 0%;
 }
 
 .informacoes p{
     color: hsl(227, 10%, 46%);
-    margin: 0;
+    margin: 0%;
 }
 
-div{
-    margin-right: 15%;
-}
-
-h1{
-    margin: 0;
-    margin-top: 15px;
-    margin-bottom: 5px;
+.informacoes h1{
+    margin: 0%;
+    margin-bottom: 7%;
     color: hsl(229, 23%, 23%);
 }
 
