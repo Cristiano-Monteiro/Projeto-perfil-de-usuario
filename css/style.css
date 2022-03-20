@@ -1,9 +1,8 @@
 body{
     background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
-    background-position: right 45vw bottom 50vh, left 45vw top 50vh;
+    background-position: right 40vw bottom 50vh, left 40vw top 50vh;
     background-repeat: no-repeat;
     background-color: hsl(185, 75%, 39%);
-    background-size: cover;
     margin: 0%;
     padding: 0%;
     height: 100vh;
